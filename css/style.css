@@ -1,0 +1,584 @@
+html{
+	background-color:#000;
+}
+h3{
+	font-family: 'Coiny', cursive, bold;
+	color: #9ACD32;
+	font-size: 20px;
+}
+body{
+	background-image: url(../images/sushi_rolly_imbir_krevetki_limon_ryba_ikra_78878_1920x1080.jpg);
+	background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+/* font-family: 'Nanum Brush Script', cursive; */
+/* font-family: 'Gloria Hallelujah', cursive; */
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: 'Diplomata', cursive; */
+font-family: 'Coiny', cursive;
+/* font-family: 'Montez', cursive; */
+font-family: 'Nosifer', cursive;}
+
+
+.div_number{
+	position: absolute;
+	right: 100px;
+	margin-top: 50px;
+}
+.text_number{
+	color: black;
+	font-family: 'Nosifer', cursive;
+	font-size: 80px;
+}
+.sushi1{
+	background-image: url(../images/cropped-1920-1080-190475.jpg);
+	background-size: cover;
+}
+.nav{
+	margin-top: 20px;
+}
+.link{
+	text-decoration: none;
+	list-style: none;
+	color: rgba(139, 0, 0,0.6);
+	font-size: 30px;
+	padding: 10px 25px;
+	line-height: 40px;
+	background: rgba(139, 0, 0,0.6);
+	border-radius: 10px;
+	color: #fff;
+}
+.kushaisushi{
+	text-decoration: none;
+}
+.imglogo{
+	margin-left: -4px;
+}
+.img_logo{
+
+}
+
+.kushaisushi h1{
+
+	color: #fff;
+	font-family: 'Nosifer', cursive;
+	transition: 0.4s;
+	font-size: 50px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	background:rgba(139, 0, 0,0.6);
+	padding: 10px;
+	border-radius: 15px;
+	text-align: center;
+
+}
+.kushaisushi h1:hover{
+	text-decoration: none;
+	color: #FFFF00;
+	transition: 0.5s;
+	background: rgba(0,0,0,0.7);
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+	}
+	
+	h1>p{
+	
+	text-align: center;
+	font-size: 33px;
+	letter-spacing: 8px;
+	margin-top: 15px;
+	line-height: 20px;
+	width: 300px;
+	font-family: 'Arial';
+
+}
+.link:hover{
+	color: #FFFF00;
+	transition: 0.5s;
+	background: rgba(0,0,0,0.7);
+	text-shadow: 3px 3px 3px solid #fff;
+	
+	}
+a.link_item{
+	text-decoration: none;
+}
+
+.nav_link{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
+
+
+}
+.sushi{
+	position: relative;
+	display: flex;
+/* 	flex-wrap: wrap; */
+	justify-content: center;
+}
+.accordion{
+	margin-top: 70px;
+}
+.box{
+	float: left;
+	font-size: 15px;
+}
+.nav{
+	width: 100%;
+	text-align: center;
+	margin-left: 20px;
+}
+
+/* Style btn */
+/* Contact */
+.sushicontact{
+	text-align: center;
+
+
+	}
+.sl_desc{
+	font-family: 'Coiny', cursive, bold;
+}
+
+.kushaisushi2{
+	text-decoration: none;
+}
+.kushaisushi2 h1{
+	text-decoration: none;
+	font-family: 'Nosifer', cursive;
+	color: #fff;
+	transition: 0.4s;
+	font-size: 20px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	background:rgba(139, 0, 0,0.6);
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+
+}
+.kushaisushi2 h1:hover{
+	color: rgb(139, 0, 0);
+	transition: 0.5s;
+	background: rgba(255,255,255,0.7);
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+}
+	/* Menu */
+
+.navmenu{
+	margin-top: 10px;
+}
+.sushimenu{
+
+max-width: 200px;
+margin-top: 80px;
+position: absolute;
+}
+.kushaisushi3{
+	position: absolute;
+
+}
+.kushaisushi3 h1{
+	font-family: 'Nosifer', cursive;
+	transition: 0.4s;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+	background:rgba(255,255,255,0.6);
+	border-radius: 10px;
+	text-align: center;
+	padding: 8px;
+	width: 310px;
+	margin-left: 20px;
+}
+.sushimenu>a{
+	margin-left: 110px;
+}
+.sushimenu2{
+	position: absolute;
+	float: left;
+	margin-top: 100px;
+}
+
+
+
+/* Taem INSTA */
+
+
+.insta{
+	width: 400px;
+	height: auto;
+	z-index: 300;
+}
+
+
+
+/* CONTACTS-TEAM */
+
+.box-team{
+	margin-left: 120px;
+	margin-top: 120px; 
+    position: absolute;
+
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.wrapper{
+	width:1100px;
+	margin-top: 50px;
+}
+.team-list-item{
+    width: 269px;
+    border-top: 4px solid transparent;
+    padding: 25px 15px 30px;
+    text-align: center;
+
+}
+
+.team-list-img{
+    background-color: rgba(139, 0, 0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.team-list-item{
+	transition: 2s;
+
+		background: rgba(0,0,0,0.4);
+	border-radius: 20px;
+}
+.team-list-item:hover{
+
+border-color: #8B0000;
+text-shadow: 2px 2px 2px solid black;
+
+
+}
+.team-list-img:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 202px;
+    width: 202px;
+    border-radius: 50%;
+  
+}
+.team-list-img >img{
+    height: 100%;
+    font-weight: 100%;
+    border-radius: 50%;
+    display:block;
+}
+.social{
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.team-list-item h6{
+    color:  #fff;
+    font-family: 'Nosifer', cursive, bold;
+
+   font-size: 25px;
+    margin-top: -12px;
+}
+.team-list-job{
+color: black;
+font-family: 'Nosifer', cursive;
+font-size: 25px;
+font-weight: 400;
+
+}
+.team-list-item p{
+	text-align: left;
+	margin-left:20%;
+
+}
+.social-link{
+	z-index: 200;
+    color: black;
+    text-decoration: black;
+    font-size: 40px;
+
+ }
+  .icon-facebook2{
+color: #3b5998;
+ }
+ .icon-telegram{
+color: #0088cc;
+ }
+.icon-vk{
+color: #45668e;
+}
+.icon-instagram{
+color: #dc4e41;}
+
+ .icon-facebook2:hover{
+color: #fff;
+ }
+ .icon-telegram:hover{
+color: #fff;
+ }
+.icon-vk:hover{
+color: #fff;
+}
+.icon-instagram:hover{
+color: #fff}
+
+/* Menu */
+.rollwrap{
+
+	max-width: 720px;
+	margin: 8px auto;
+	height: auto;
+	position: fixed;
+	margin-left: 580px;
+}
+.rollwrap div{
+	border-radius: 20px;
+}
+.sl_slide{
+	position: relative;
+
+}
+.sl_text{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+}
+
+/* sl2 */
+.sl2{
+	margin: 20px 0 0;
+
+}
+.sl{
+	border: 4px solid rgba(139, 0, 0,0.8);
+}
+.sl2_slide{
+	margin: 0 4px;
+}
+.sl2_slide img{
+	padding: 3px;
+	background: rgba(139, 0, 0,0.8);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.slick-prev .slick-next{
+	z-index:1002;
+    }
+
+
+.slick-prev:bedore .slick-next:before{
+
+}
+
+.slick-prev slick-arrow{
+	font-size: 42px;
+text-shadow: rgba(0,0,0,0.4);
+
+}
+/* Roll menu */
+
+.roll_menu{
+position: absolute;
+margin-top:150px;
+height: auto;
+padding:15px;
+width: 400px;
+}
+.roll_head{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 0 0 0 0;
+}
+
+
+.roll_wrap img{
+	border-radius: 15px;
+	align-items: center;
+}
+
+/* checkbox */
+
+
+input.checkbox {
+	margin-top: 6px;
+	
+}
+.checkbox + label {
+  position: relative;
+  padding: 0 0 0 60px;
+  cursor: pointer;
+}
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 35px;
+  height: 19px;
+  border-radius: 13px;
+  background: rgba(139, 0, 0,0.6);
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  transition: .2s;
+}
+.checkbox + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: .2s;
+}
+.checkbox:checked + label:before {
+  background: #9FD468;
+
+}
+.checkbox:checked + label:after {
+  left: 17px;
+}
+.checkbox:checked + label:before {
+  background: #9FD468;
+
+}
+.checkbox:checked + label:after {
+  left: 17px;
+}
+.roll_menu{
+	margin-left: 10px;
+	width: 550px;
+
+}
+.ection{
+	margin-left: 200px;
+}
+form{
+	padding: 50px 40px;
+	background-color: rgba(139,0,0,0.7);
+	max-width: 370px;
+	border-radius: 20px;
+	margin: auto;
+	position: relative;
+
+}
+form input{
+	width: 80%;
+	margin-bottom: 10px;
+	height: 40px;
+	border-radius: 10px;
+	border: 3px solid rgba(154, 205, 50,0.8);
+}
+button{
+margin-left: 8%;
+background-color: rgba(154, 205, 50,0.8);
+width: 200px;
+height: 30px;
+border-radius: 10px;
+margin-top: 10px;
+border: 2px 2px 2px solid #fff;
+cursor: pointer;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+div.extion {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+input[type="tel"] {
+  width: 250px;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: black;
+	margin: 0 auto;
+  font-size: 30px;
+  margin-top: 11px;
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  transition: 0.8s;
+  font-size: 30px;
+  padding-left: 5px;
+  color: #009000;
+  margin-top: 11px;
+}
+.popup2{
+	position: fixed;
+	margin-top: 5px;
+	background: rgba(139, 0, 0,0.5);
+	width: 100px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	text-align: center;
+	margin-left: 390px;
+	border: 2px solid black;
+
+}
+.popup2:hover{
+ background: rgba(154, 205, 50,0.3);
+ transition: 0.4s;
+}
+.trip{
+	color: black;
+}
+/* TEAM LEFT_RIGT */
+.team_all{
+	margin-top:;
+	margin: 200px auto;
+	display: flex;
+	height: auto;
+	width: 1200px;
+
+
+}
+.left_div{
+	padding: 15px;
+	border-radius: 15px;
+	margin: 0 auto;
+width: 550px;
+height: auto;
+background: rgba(255,255,255,0.4);
+}
+
+.right_div{
+	padding: 15px;
+	border-radius: 15px;
+	margin: 0 auto;
+	height: auto;
+	width: 550px;
+	font-size: 20px;
+	text-align: center;
+	background: rgba(255,255,255,0.4);
+}
+h4{
+	color: black;
+}
+
